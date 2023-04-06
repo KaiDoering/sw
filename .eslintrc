@@ -17,6 +17,6 @@
   },
   "rules": {
     // Allow devDependencies in test files
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["src/**/*.spec.*"] }]
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["src/**/*.spec.*", "src/__test__/**/*"] }]
   }
 }
