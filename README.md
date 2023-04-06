@@ -1,3 +1,5 @@
+[![build](https://github.com/KaiDoering/sw/actions/workflows/build.yaml/badge.svg)](https://github.com/KaiDoering/sw/actions/workflows/build.yaml)
+
 # Encyclopedia Galactica
 
 ## Scripts for local development
