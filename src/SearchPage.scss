@@ -1,0 +1,15 @@
+.search-page-container {
+  margin: 1rem 25%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .search-page-container {
+    margin: 1rem 10%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .search-page-container {
+    margin: 1rem;
+  }
+}

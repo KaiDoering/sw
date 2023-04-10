@@ -16,6 +16,9 @@
     "jest": true
   },
   "rules": {
+    // Do not require default props for functional components
+    "react/require-default-props": ["error", { "ignoreFunctionalComponents": true }],
+
     // Allow devDependencies in test files
     "import/no-extraneous-dependencies": ["error", { "devDependencies": ["src/**/*.spec.*", "src/__test__/**/*"] }]
   }

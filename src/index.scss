@@ -6,4 +6,11 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
+
+  .logo {
+    color: #f9f9f9;
+    display: flex;
+    gap: 0.5rem;
+    font-family: monospace;
+  }
 }

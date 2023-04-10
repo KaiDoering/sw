@@ -1,0 +1,15 @@
+.preview-panel {
+  display: flex;
+  padding: 1.5rem;
+  gap: 1rem;
+
+  &.big-picture {
+    flex-direction: column;
+    align-items: center;
+
+    svg {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+}

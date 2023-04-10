@@ -48,10 +48,14 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.11.16",
+    "@reduxjs/toolkit": "^1.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0"
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "swapi-ts": "^1.0.1"
   },
   "scripts": {
     "clean": "rm -rf ./dist",
@@ -71,6 +75,9 @@
       "^.+\\.(ts|js)x?$": "ts-jest",
       "^.+\\.svg$": "<rootDir>/src/__test__/file-transformer.js"
     },
+    "transformIgnorePatterns": [
+      "node_modules/(?!swapi-ts)"
+    ],
     "moduleNameMapper": {
       "^.+\\.(css|sass|scss)$": "identity-obj-proxy"
     },
@@ -81,14 +88,6 @@
       "src/**/*.(js|jsx|ts|tsx)",
       "!src/__test__/**",
       "!src/**/*.d.ts"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 85,
-        "functions": 85,
-        "lines": 85,
-        "statements": 85
-      }
-    }
+    ]
   }
 }

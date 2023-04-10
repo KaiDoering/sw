@@ -1,0 +1,26 @@
+.data-page-container {
+  padding: 1rem 20%;
+  display: grid;
+  grid-template-columns: [left] 25% [mid] 75% [right];
+  gap: 2rem;
+  row-gap: 2rem;
+
+  .icon {
+    vertical-align: bottom;
+  }
+
+  .picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .reference-section, .header {
+    grid-column: left / right;
+  }
+
+  .reference-section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}

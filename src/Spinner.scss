@@ -1,0 +1,38 @@
+$saber-color: #03e9f4;
+
+.light-saber {
+  position: relative;
+  top: 50vh;
+  margin: auto;
+  border-radius: 10px;
+  width: 15rem;
+  height: 1rem;
+  box-shadow: 0 0 5px $saber-color, 0 0 25px $saber-color, 0 0 50px $saber-color, 0 0 100px $saber-color;
+  transform-origin: calc(50% - 1.25rem) center;
+  background: #fff;
+}
+
+.handle {
+  position: relative;
+  left: -2.5rem;
+  bottom: 0.1rem;
+  width: 3rem;
+  height: 1.2rem;
+  background: #7f7f7f;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .light-saber {
+    animation: app-logo-spin infinite 4s linear;
+  }
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
